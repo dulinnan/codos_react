@@ -1,0 +1,357 @@
+/** @format */
+
+.text-cream {
+    color: #fdfacf;
+}
+
+.btn::after,
+a.btn::after {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: -5;
+    transform: translateX(-50%);
+    display: block;
+    width: 95%;
+    height: 95%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    transition: opacity 0.3s;
+    content: "";
+}
+
+.btn,
+.btn-container,
+a.btn {
+    position: relative;
+    display: inline-block;
+}
+.btn,
+a.btn {
+    font-family: lato, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: 0;
+    height: 55px;
+    padding: 0 35px;
+    color: #fff;
+    line-height: 51px;
+    font-size: 0.6875em;
+    text-align: center;
+    letter-spacing: 1px;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 2px;
+    background: #7d7f85;
+    background-color: rgb(125, 127, 133);
+}
+
+.btn-outline {
+    margin-right: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.btn-outline {
+    display: inline-block;
+    padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+    border: 0.125rem solid #f11b3f;
+    background-color: transparent;
+    color: #f11b3f;
+    font: 700 0.75rem/1 "lato", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-liveshow {
+    margin-right: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.btn-liveshow {
+    display: inline-block;
+    padding: 1.375rem 3.625rem 1.375rem 3.625rem;
+    border: transparent;
+    background: rgb(0, 250, 255);
+    background: linear-gradient(90deg, rgba(0, 250, 255, 1) 0%, rgba(0, 137, 255, 1) 100%);
+    color: #ffffff;
+    font: 700 0.75rem/0.3 "lato", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-outline:hover {
+    background-color: #f11b3f;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-solid {
+    display: inline-block;
+    padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+    border: 0.125rem solid #f11b3f;
+    background-color: #f11b3f;
+    color: #ffffff;
+    font: 700 0.75rem/1 "lato", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-solid:hover {
+    background-color: transparent;
+    color: #f11b3f;
+    text-decoration: none;
+}
+
+.btn-grey {
+    margin-right: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.btn-grey {
+    display: inline-block;
+    padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+    border: 0.125rem solid #0d0746;
+    background-color: transparent;
+    color: #0d0746;
+    font: 700 0.75rem/1 "lato", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-grey:hover {
+    background-color: #0d0746;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-grey-inverse,
+.btn-solid {
+    margin-right: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.btn-grey-inverse {
+    display: inline-block;
+    padding: 1.375rem 2.625rem 1.375rem 2.625rem;
+    border: 0.125rem solid #0d0746;
+    background-color: #0d0746;
+    color: #ffffff;
+    font: 700 0.75rem/1 "lato", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-grey-inverse:hover {
+    background-color: transparent;
+    color: #0d0746;
+    text-decoration: none;
+}
+
+.link-decoration {
+    box-shadow: inset 0 -2px 0 #f11b3f;
+    -webkit-transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+    margin: auto;
+    text-align: center;
+    color: #000000;
+}
+
+.link-decoration:hover,
+.link-decoration:active {
+    box-shadow: inset 0 -18px 0 rgba(241, 27, 63, 1);
+    color: #ffffff;
+}
+
+.title-decoration {
+    box-shadow: inset 0 -4px 0 #f11b3f;
+    -webkit-transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.react-collapsible-theme .react-collapsible td {
+    font-size: 14px !important;
+    font-weight: 300;
+    color: #666;
+    line-height: 25px;
+    font-family: "Lato", sans-serif;
+}
+
+.react-collapsible-theme .react-collapsible thead,
+.react-collapsible-theme .react-collapsible .child-label {
+    font-size: 18px !important;
+    color: #262a33 !important;
+    font-weight: 400 !important;
+    font-family: "Lato", sans-serif !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    text-align: left;
+}
+
+.text-red {
+    color: #f11b3f !important;
+}
+.blur-bgimage {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+
+.iconfont-custom {
+    padding-right: 0.5rem;
+}
+
+.rich-text {
+    overflow: hidden;
+    line-height: 1.8;
+}
+.rich-text * {
+    margin-bottom: 1rem;
+}
+.rich-text *:last-child {
+    margin-bottom: 0;
+}
+.rich-text *:first-child {
+    margin-top: 0;
+}
+.rich-text table td,
+.rich-text table th {
+    background: none;
+    border: 1px solid #cccccc;
+}
+.rich-text strong,
+.rich-text b {
+    font-weight: 400;
+}
+.rich-text a {
+    color: #00b7ca;
+}
+.rich-text label {
+    margin-bottom: 6px;
+}
+.rich-text .lead {
+    font-size: 1.1rem;
+}
+
+.rich-text ul,
+.rich-text ol,
+.rich-text dl {
+    list-style-position: outside;
+    padding-left: 24px;
+    margin: 24px 0;
+}
+.rich-text ul {
+    list-style-type: disc;
+}
+.rich-text ol {
+    list-style-type: decimal;
+}
+.rich-text dl {
+    padding: 0;
+}
+.rich-text dt,
+.rich-text dd {
+    display: block;
+    margin: 0;
+}
+.rich-text dt {
+    font-weight: bold;
+    font-size: 110%;
+}
+.rich-text dd {
+    margin-bottom: 12px;
+}
+.rich-text table {
+    font-size: 0.9em;
+    line-height: 1.5;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+}
+.rich-text caption {
+    text-align: left;
+}
+.rich-text td,
+.rich-text th {
+    padding: 24px;
+    vertical-align: middle;
+    border: 1px solid #e6e6e6;
+}
+.rich-text th {
+    background: #fcfcfc;
+    font-weight: bold;
+}
+.rich-text h2,
+.rich-text h3,
+.rich-text h4,
+.rich-text h5,
+.rich-text h6 {
+    margin-bottom: 12px;
+}
+.rich-text a.btn {
+    background: #2b2b33;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.1;
+    letter-spacing: initial;
+}
+.rich-text h3,
+.rich-text h4,
+.rich-text h5,
+.rich-text h6 {
+    margin-top: 48px;
+}
+.rich-text table {
+    border: 0;
+    text-align: left;
+    text-transform: none;
+}
+.rich-text table td,
+.rich-text table th {
+    border: none;
+}
+.rich-text table tr {
+    border-bottom: 1px solid #e6e6e6;
+}
+.rich-text table td:first-child,
+.rich-text table th:first-child {
+    padding-left: 0;
+}
+.rich-text table th {
+    color: #006497;
+    font-size: 1.1rem;
+}
+.rich-text table .tick {
+    display: block;
+    color: #00b7ca;
+}
+.rich-text blockquote {
+    font-size: 1.6rem;
+    font-style: italic;
+    padding-left: 48px;
+    padding-right: 48px;
+    border-left: 5px solid #006497;
+}
+.blink-cursor {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
