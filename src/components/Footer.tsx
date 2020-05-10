@@ -18,9 +18,8 @@ export default function Footer() {
                             <div className="col-lg-3 col-md-12">
                                 <div className="mb-5 mb-md-0 text-center text-md-left">
                                     <Link className="footer-brand logo-image" to="/" style={{textDecoration: "none"}}>
-                                        <img className="img-fluid mb-10 w-50" src={footerImg} alt="logo of CJC" />
+                                        <img className="img-fluid mb-10 w-50" src={footerImg} alt="logo of CODOS" />
                                     </Link>
-                                    
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-12">
@@ -45,7 +44,6 @@ export default function Footer() {
                                                 {t("header.partner")}
                                             </Link>
                                         </li>
-                                        
                                     </ul>
                                 </div>
                             </div>
@@ -58,31 +56,15 @@ export default function Footer() {
                                             <a
                                                 className="text-white"
                                                 href="/media/documents/Carrick Just Capital Markets - Client Services Agreement - 22032019.pdf">
-                                                {t("footer.clientServicesAgreement")}
+                                                {t("contactForm.termsAndConditions")}
                                             </a>
                                         </li>
                                         <li className="media">
                                             <span className="iconfont icon-square text-red"></span>
                                             <a
                                                 className="text-white"
-                                                href="/media/documents/Carrick Just Capital Markets - Product Disclosure Statement - 27082019.pdf">
-                                                {t("footer.productDisclosureStatement")}
-                                            </a>
-                                        </li>
-                                        <li className="media">
-                                            <span className="iconfont icon-square text-red"></span>
-                                            <a
-                                                className="text-white"
-                                                href="/media/documents/Carrick Just Capital Markets - Fees Schedule.pdf">
-                                                {t("footer.feesSchedule")}
-                                            </a>
-                                        </li>
-                                        <li className="media">
-                                            <span className="iconfont icon-square text-red"></span>
-                                            <a
-                                                className="text-white"
-                                                href="/media/documents/Carrick Just Capital Markets - Contract Specifications.pdf">
-                                                {t("footer.contractSpecifications")}
+                                                href="/media/documents/Carrick Just Capital Markets - Client Services Agreement - 22032019.pdf">
+                                                {t("contactForm.privacyPolicy")}
                                             </a>
                                         </li>
                                     </ul>
@@ -94,23 +76,9 @@ export default function Footer() {
                                     <h4 className="mb-4 text-white">{t("footer.socialMedia")}</h4>
                                     <ul className="list-inline">
                                         <li className="list-inline-item">
-                                            <a href="https://www.facebook.com/CJCmarkets">
+                                            <a href="https://www.facebook.com/Codositservice/">
                                                 <span
                                                     className="iconfont icon-facebook text-red"
-                                                    style={{fontSize: "2rem"}}></span>
-                                            </a>
-                                        </li>
-                                        <li className="list-inline-item">
-                                            <a href="https://www.instagram.com/cjc_markets">
-                                                <span
-                                                    className="iconfont icon-instagram text-red"
-                                                    style={{fontSize: "2rem"}}></span>
-                                            </a>
-                                        </li>
-                                        <li className="list-inline-item">
-                                            <a href="https://www.linkedin.com/company/cjc-markets">
-                                                <span
-                                                    className="iconfont icon-linkedin text-red"
                                                     style={{fontSize: "2rem"}}></span>
                                             </a>
                                         </li>
@@ -120,8 +88,6 @@ export default function Footer() {
                         </div>
                         <div className="row justify-content-center mt-5">
                             <div className="col-lg-12">
-                                <h6 className="text-white">{t("footer.disclaimer")}</h6>
-                                <p className="footer-paragraph">{t("footer.disclaimerMessage")}</p>
                                 <p className="footer-paragraph">
                                     Telephone calls and online chat conversations may be recorded and monitored. Apple,
                                     iPad, and iPhone are trademarks of Apple Inc., registered in the U.S. and other
@@ -149,16 +115,9 @@ export default function Footer() {
                             <div className="col-lg-6 col-md-7">
                                 <ul className="list-inline text-center text-md-right">
                                     <li className="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                                        <Link to="/help/documents" className="font-secondary text-white">
-                                            {t("footer.documents")}
-                                        </Link>
-                                    </li>
-                                    <li className="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                                        <a
-                                            className="font-secondary text-white"
-                                            href="/media/documents/Carrick Just Capital Markets - Privacy Policy.pdf">
-                                            {t("contactForm.privacyPolicy")}
-                                        </a>
+                                    <p className="font-secondary text-white">Proudly hosted by{" "}<img className="w-25" src={footerImg} alt="logo of CODOS" />
+                                    </p>
+                                        
                                     </li>
                                 </ul>
                             </div>

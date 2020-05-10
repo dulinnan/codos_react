@@ -109,16 +109,16 @@
     color: white;
 }
 .column-content-block .column-content-wrapper > :nth-child(1) {
-    background: #5126c6;
+    background: #ed1b2e;
 }
 .column-content-block .column-content-wrapper > :nth-child(2) {
-    background: #3136c8;
+    background: #fd5c63;
 }
 .column-content-block .column-content-wrapper > :nth-child(3) {
-    background: #4154f0;
+    background: #da1884;
 }
 .column-content-block .column-content-wrapper > :nth-child(4) {
-    background: #00bdff;
+    background: #a51890;
 }
 .column-content-block .rich-text {
     line-height: 1.7;

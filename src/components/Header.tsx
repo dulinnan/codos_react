@@ -104,7 +104,6 @@ export default function Header() {
         <>
             <header className={`nav-fixed-top ${navBackground ? "nav-dark box-shadow" : "nav-light"}`}>
                 <div className="navigation">
-                    <div className="container-lg">
                         <nav className="navbar navbar-expand-lg nav-flex">
                             <Link className="nav-item nav-logo-mobile" to="/">
                                 {/* <img src={logoImage} alt="logo" height="60px" /> */}
@@ -114,12 +113,7 @@ export default function Header() {
                                     height="50px"
                                     alt="logo of CJC"
                                 />
-                                <img
-                                    className={`${navBackground ? "nav-logo-light" : "nav-logo-dark"} py-2`}
-                                    src={logoNavLight}
-                                    height="50px"
-                                    alt="logo of CJC"
-                                />
+                                
                             </Link>
                             <div className="nav-flex">
                                 <button
@@ -144,20 +138,25 @@ export default function Header() {
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/why-choose-cjc" className="nav-link">
-                                            {t("header.why")}
+                                        Services
                                         </Link>
                                     </li>
 
                                     <li className="nav-item">
                                         <Link to="/help/qna" className="nav-link">
-                                            {t("header.help")}
+                                        Pricing
+                                        </Link>
+                                    </li>
+                                    <li className="nav-item">
+                                        <Link to="/help/qna" className="nav-link">
+                                        Contact
                                         </Link>
                                     </li>
                                 </ul>
                             </div>
                         </nav>
                     </div>
-                </div>
+                
             </header>
         </>
     )

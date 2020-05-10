@@ -57,16 +57,16 @@
     border-left: 0;
 }
 .featured-table-block table th:nth-child(4n + 2) {
-    background: #5126c6;
+    background: #832561;
 }
 .featured-table-block table th:nth-child(4n + 2) svg {
-    fill: #5126c6;
+    fill: #832561;
 }
 .featured-table-block table th:nth-child(4n + 3) {
-    background: #3136c8;
+    background: #db3552;
 }
 .featured-table-block table th:nth-child(4n + 3) svg {
-    fill: #3136c8;
+    fill: #db3552;
 }
 .featured-table-block table th:nth-child(4n + 4) {
     background: #4154f0;
@@ -75,10 +75,10 @@
     fill: #4154f0;
 }
 .featured-table-block table td:nth-child(4n + 2) svg {
-    fill: #5126c6;
+    fill: #832561;
 }
 .featured-table-block table td:nth-child(4n + 3) svg {
-    fill: #3136c8;
+    fill: #db3552;
 }
 .featured-table-block table td:nth-child(4n + 4) svg {
     fill: #4154f0;
