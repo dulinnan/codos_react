@@ -86,20 +86,6 @@ export default function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div className="row justify-content-center mt-5">
-                            <div className="col-lg-12">
-                                <p className="footer-paragraph">
-                                    Telephone calls and online chat conversations may be recorded and monitored. Apple,
-                                    iPad, and iPhone are trademarks of Apple Inc., registered in the U.S. and other
-                                    countries. App Store is a service mark of Apple Inc. Android is a trademark of
-                                    Google Inc. This website uses cookies to obtain information about your general
-                                    internet usage. Removal of cookies may affect the operation of certain parts of this
-                                    website. Learn about cookies and how to remove them. Portions of this page are
-                                    reproduced from work created and shared by Google and used according to terms
-                                    described in the Creative Commons 3.0
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
 
@@ -115,9 +101,10 @@ export default function Footer() {
                             <div className="col-lg-6 col-md-7">
                                 <ul className="list-inline text-center text-md-right">
                                     <li className="list-inline-item mx-lg-3 my-lg-0 mx-2 my-2">
-                                    <p className="font-secondary text-white">Proudly hosted by{" "}<img className="w-25" src={footerImg} alt="logo of CODOS" />
-                                    </p>
-                                        
+                                        <p className="font-secondary text-white">
+                                            Proudly hosted by{" "}
+                                            <img className="w-25" src={footerImg} alt="logo of CODOS" />
+                                        </p>
                                     </li>
                                 </ul>
                             </div>

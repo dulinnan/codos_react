@@ -27,7 +27,7 @@ export default function FMA() {
 
     return (
         <>
-            <section className="section" style={featureTableBgStyle}>
+            <section className="section" style={featureTableBgStyle} id="codos-pricing">
                 <div className="featured-table-block" style={featureTableBgStyle}>
                     <div className="container">
                         <div className="row">
@@ -39,6 +39,7 @@ export default function FMA() {
                                     <thead>
                                         <tr>
                                             <th></th>
+                                            <th>Starter</th>
                                             <th>Essentials</th>
                                             <th>Comprehensive</th>
                                             <th>Premium</th>
@@ -46,57 +47,60 @@ export default function FMA() {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>User Management Platform</td>
+                                            <td>Hosting</td>
                                             <td>{svg()}</td>
                                             <td>{svg()}</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Secure Email Gateway Modules</td>
                                             <td>{svg()}</td>
-                                            <td>{svg()}</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Mail Filtering</td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Content Control</td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Data Loss Prevention</td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Email Archive</td>
-                                            <td></td>
-                                            <td>{svg()}</td>
-                                            <td></td>
-                                        </tr>
-                                        <tr>
-                                            <td>Data Migration</td>
-                                            <td></td>
-                                            <td></td>
                                             <td>{svg()}</td>
                                         </tr>
                                         <tr>
-                                            <td>Migration Testing</td>
+                                            <td>Search Engine Optimisation</td>
+                                            <td>{svg()}</td>
+                                            <td>{svg()}</td>
+                                            <td>{svg()}</td>
+                                            <td>{svg()}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mobile Compatibility</td>
+                                            <td>{svg()}</td>
+                                            <td>{svg()}</td>
+                                            <td>{svg()}</td>
+                                            <td>{svg()}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Support(Contract Based)</td>
+                                            <td></td>
+                                            <td>{svg()}</td>
+                                            <td>{svg()}</td>
+                                            <td>{svg()}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Digital Marketing</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>{svg()}</td>
+                                            <td>{svg()}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Backend</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>{svg()}</td>
+                                            <td>{svg()}</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Content Management System</td>
+                                            <td></td>
                                             <td></td>
                                             <td></td>
                                             <td>{svg()}</td>
                                         </tr>
                                         <tr>
-                                            <td>Support Desk Queries</td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
+                                            <td>Customisation</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
                                             <td>{svg()}</td>
                                         </tr>
                                     </tbody>

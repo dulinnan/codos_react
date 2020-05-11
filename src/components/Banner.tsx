@@ -12,7 +12,7 @@ import {Link} from "react-router-dom"
 import "../styles/banner.css"
 
 const bannerOneStyle: CSSProperties = {
-    background: `linear-gradient(45deg, rgba(234,67,53,1) 0%, rgba(184,60,130,1) 100%), url(${bannerDemoImg})`,
+    background: `linear-gradient(45deg, rgba(238,238,238,1) 0%, rgba(114,132,218,1) 49%, rgba(0,120,215,1) 100%), url(${bannerDemoImg})`,
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
@@ -43,11 +43,15 @@ function defaultBanner() {
                         <div className="row banner justify-content-center">
                             <div className="col-lg-8 col-md-12">
                                 <h1 className="text-center mb-30" style={{fontSize: "10rem", color: "#000000"}}>
-                                    <img className="img-fluid w-75" style={{verticalAlign: "bottom"}} src={logoWhite} alt="CODOS LOGO"/>
+                                    <img
+                                        className="img-fluid w-75"
+                                        style={{verticalAlign: "bottom"}}
+                                        src={logoWhite}
+                                        alt="CODOS LOGO"
+                                    />
                                     <span className="blink-cursor is-hidden-mobile">_</span>
                                 </h1>
-                                <h2 className="text-black text-center">IT Services</h2>
-                              
+                                <h2 className="text-white text-center">IT Service</h2>
                             </div>
                         </div>
                     </div>

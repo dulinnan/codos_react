@@ -6219,7 +6219,7 @@ html.js .js-more {
 .featured-table-block table td,
 .featured-table-block table th {
     border: 4px solid #efefef;
-    background: pink;
+    background: rgb(7, 129, 27);
     padding: 12px;
     vertical-align: middle;
 }

@@ -29,19 +29,21 @@ export default function Service() {
                             <div className="block-inner flex">
                                 <div className="content-width rich-text">
                                     <h2>
-                                    <b>At CODOS we </b>
-                                    offer Computer maintenance and repair
-                                        <b> alongside Professionally designed websites on time at a great price that suits your budget..</b>
+                                        <b>At CODOS we </b>
+                                        offer Computer maintenance and repair
+                                        <b>
+                                            {" "}
+                                            alongside Professionally designed websites on time at a great price that
+                                            suits your budget..
+                                        </b>
                                     </h2>
-                                   
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-               
             </div>
-            <div className="column-content-block">
+            <div className="column-content-block" id="codos-services">
                 <div className="full-width">
                     <div className="row column-content-wrapper">
                         <div className="item">

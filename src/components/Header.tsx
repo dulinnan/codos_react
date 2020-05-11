@@ -104,59 +104,57 @@ export default function Header() {
         <>
             <header className={`nav-fixed-top ${navBackground ? "nav-dark box-shadow" : "nav-light"}`}>
                 <div className="navigation">
-                        <nav className="navbar navbar-expand-lg nav-flex">
-                            <Link className="nav-item nav-logo-mobile" to="/">
-                                {/* <img src={logoImage} alt="logo" height="60px" /> */}
-                                <img
-                                    className={`${navBackground ? "nav-logo-dark" : "nav-logo-light"} py-2`}
-                                    src={logoNavDark}
-                                    height="50px"
-                                    alt="logo of CJC"
-                                />
-                                
-                            </Link>
-                            <div className="nav-flex">
-                                <button
-                                    className="navbar-toggler nav-item nav-toggler-mobile"
-                                    type="button"
-                                    aria-expanded={ariaExpanded}>
-                                    <span onClick={handleNavCollapse}>
-                                        <svg viewBox="0 0 100 80" width="40" height="32">
-                                            <rect width="80" height="6" fill="#0D0746"></rect>
-                                            <rect y="30" width="80" height="6" fill="#0D0746"></rect>
-                                            <rect y="60" width="80" height="6" fill="#0D0746"></rect>
-                                        </svg>
-                                    </span>
-                                </button>
-                            </div>
-                            <div className={collapseStatus} id="navbarSupportedContent">
-                                <ul className="navbar-nav ml-auto">
-                                    <li className="nav-item">
-                                        <Link to="/about-us" className="nav-link">
-                                            {t("header.aboutUs")}
-                                        </Link>
-                                    </li>
-                                    <li className="nav-item">
-                                        <Link to="/why-choose-cjc" className="nav-link">
+                    <nav className="navbar navbar-expand-lg nav-flex">
+                        <Link className="nav-item nav-logo-mobile" to="/">
+                            {/* <img src={logoImage} alt="logo" height="60px" /> */}
+                            <img
+                                className={`${navBackground ? "nav-logo-dark" : "nav-logo-light"} py-2`}
+                                src={logoNavDark}
+                                height="50px"
+                                alt="logo of CJC"
+                            />
+                        </Link>
+                        <div className="nav-flex">
+                            <button
+                                className="navbar-toggler nav-item nav-toggler-mobile"
+                                type="button"
+                                aria-expanded={ariaExpanded}>
+                                <span onClick={handleNavCollapse}>
+                                    <svg viewBox="0 0 100 80" width="40" height="32">
+                                        <rect width="80" height="6" fill="#0D0746"></rect>
+                                        <rect y="30" width="80" height="6" fill="#0D0746"></rect>
+                                        <rect y="60" width="80" height="6" fill="#0D0746"></rect>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+                        <div className={collapseStatus} id="navbarSupportedContent">
+                            <ul className="navbar-nav ml-auto">
+                                <li className="nav-item">
+                                    <Link to="/about-us" className="nav-link">
+                                        {t("header.aboutUs")}
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/#codos-services" className="nav-link">
                                         Services
-                                        </Link>
-                                    </li>
+                                    </Link>
+                                </li>
 
-                                    <li className="nav-item">
-                                        <Link to="/help/qna" className="nav-link">
+                                <li className="nav-item">
+                                    <Link to="/#codos-pricing" className="nav-link">
                                         Pricing
-                                        </Link>
-                                    </li>
-                                    <li className="nav-item">
-                                        <Link to="/help/qna" className="nav-link">
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link to="/help/qna" className="nav-link">
                                         Contact
-                                        </Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                
+                                    </Link>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
             </header>
         </>
     )
