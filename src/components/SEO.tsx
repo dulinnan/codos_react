@@ -6,7 +6,7 @@ import {useTranslation} from "react-i18next"
 
 export default function SEO() {
     const {t} = useTranslation()
-    const pageTitle = t("pagetitle") + " | CODOS IT Services"
+    const pageTitle = t("pagetitle") + " | CODOS IT Service"
     const pageDesc = t("description")
     return (
         <>
@@ -17,4 +17,3 @@ export default function SEO() {
         </>
     )
 }
-

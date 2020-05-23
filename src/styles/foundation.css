@@ -355,3 +355,9 @@ a.btn {
         visibility: hidden;
     }
 }
+
+@media (max-width: 575px) {
+    .mobile-hide {
+        display: none;
+    }
+}

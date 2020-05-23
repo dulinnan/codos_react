@@ -11,7 +11,6 @@
 .terminal-flex-item {
     flex: 0 0 auto;
     margin: 10px;
-    
 }
 @media (max-width: 991px) {
     .terminal-flex-item {
@@ -23,4 +22,3 @@
         max-width: 50%;
     }
 }
-

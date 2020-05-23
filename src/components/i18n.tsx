@@ -13,7 +13,7 @@ const resources = {
         translation: translationEn,
         NotFound: notFoundEn,
         cfd: cfdEn,
-    }
+    },
 }
 
 i18n

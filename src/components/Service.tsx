@@ -1,16 +1,13 @@
 /** @format */
 
 import React, {Suspense, CSSProperties} from "react"
-import {useTranslation} from "react-i18next"
+import {Link} from "react-router-dom"
 import logoNavDark from "../images/logoNavDark.png"
 import imgGrey from "../images/CODOS_LOGO_grey.png"
 import "../styles/ourAdvantages.css"
 import "../styles/service.css"
 
-import {Link} from "react-router-dom"
 export default function Service() {
-    const {t} = useTranslation("")
-
     const bgImgStyle: CSSProperties = {
         background: `url(${imgGrey})`,
         backgroundPosition: "center",
@@ -56,9 +53,9 @@ export default function Service() {
                                             Installations and Diagnostics, Virus removal - From $85 Per hour.
                                         </p>
                                     </div>
-                                    <a className="btn" href="/archiving/">
+                                    <Link to="/service/it-maintenance-and-repair" className="btn">
                                         Learn more
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -73,9 +70,9 @@ export default function Service() {
                                             service using Node.js and SQL server or Mongo DB databases.
                                         </p>
                                     </div>
-                                    <a className="btn" href="/archiving/">
+                                    <Link to="/service/web-development" className="btn">
                                         Learn more
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -90,9 +87,9 @@ export default function Service() {
                                             Optimization (SEO).
                                         </p>
                                     </div>
-                                    <a className="btn" href="/archiving/">
+                                    <Link to="/service/digital-marketing" className="btn">
                                         Learn more
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -107,9 +104,9 @@ export default function Service() {
                                             functioning how you want it to - Starting from $35 per month.
                                         </p>
                                     </div>
-                                    <a className="btn" href="/archiving/">
+                                    <Link to="/service/web-hosting" className="btn">
                                         Learn more
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

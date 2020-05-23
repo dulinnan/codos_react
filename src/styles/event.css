@@ -1,27 +1,30 @@
+/** @format */
+
 table.minimalistBlack {
-    border: 2px solid #F11B3F;
-    background-color: #FFFFFF;
+    border: 2px solid #f11b3f;
+    background-color: #ffffff;
     width: 100%;
     text-align: left;
     border-collapse: collapse;
-  }
-  table.minimalistBlack td, table.minimalistBlack th {
-    border: 1px solid #F11B3F;
+}
+table.minimalistBlack td,
+table.minimalistBlack th {
+    border: 1px solid #f11b3f;
     padding: 5px 4px;
-  }
-  table.minimalistBlack tbody td {
+}
+table.minimalistBlack tbody td {
     font-size: 13px;
-  }
-  table.minimalistBlack thead {
+}
+table.minimalistBlack thead {
     background: #ffffff;
-    border-bottom: 1px solid #F11B3F;
-  }
-  table.minimalistBlack thead th {
+    border-bottom: 1px solid #f11b3f;
+}
+table.minimalistBlack thead th {
     font-size: 15px;
     font-weight: normal;
-    color: #F11B3F;
+    color: #f11b3f;
     text-align: left;
-  }
-  table.minimalistBlack tfoot td {
+}
+table.minimalistBlack tfoot td {
     font-size: 14px;
-  }
+}

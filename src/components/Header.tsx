@@ -136,7 +136,7 @@ export default function Header() {
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/#codos-services" className="nav-link">
+                                    <Link to="/service/it-maintenance-and-repair" className="nav-link">
                                         Services
                                     </Link>
                                 </li>
@@ -147,7 +147,7 @@ export default function Header() {
                                     </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link to="/help/qna" className="nav-link">
+                                    <Link to="/contact" className="nav-link">
                                         Contact
                                     </Link>
                                 </li>

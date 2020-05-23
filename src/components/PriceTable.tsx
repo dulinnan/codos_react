@@ -20,26 +20,26 @@ export default function PriceTable() {
     return (
         <>
             <section className="section">
-            <div className="container">
-                        <div className="row" style={{alignItems: "top"}}>
-                            <div className="col-lg-6">
-                                <h2>
-                                    <b>Lorem Ipsum</b>
-                                </h2>
-                            </div>
-                            <div className="col-lg-6 col-md-12 text-left rich-text">
-                                <ul>
-                                    <li>A local Solution for a Global Problem</li>
-                                    <li>Detect and block more threats with SMX dual filtering and honeypots</li>
-                                    <li>Kill URL based threats before they reach your inboxes</li>
-                                    <li>
-                                        Automate rules to combat phishing, malware, ransomware and other high-risk email
-                                    </li>
-                                    <li>Improve time to access email data archive</li>
-                                </ul>
-                            </div>
+                <div className="container">
+                    <div className="row" style={{alignItems: "top"}}>
+                        <div className="col-lg-6">
+                            <h2>
+                                <b>Lorem Ipsum</b>
+                            </h2>
+                        </div>
+                        <div className="col-lg-6 col-md-12 text-left rich-text">
+                            <ul>
+                                <li>A local Solution for a Global Problem</li>
+                                <li>Detect and block more threats with SMX dual filtering and honeypots</li>
+                                <li>Kill URL based threats before they reach your inboxes</li>
+                                <li>
+                                    Automate rules to combat phishing, malware, ransomware and other high-risk email
+                                </li>
+                                <li>Improve time to access email data archive</li>
+                            </ul>
                         </div>
                     </div>
+                </div>
             </section>
             <section className="section" style={priceTableStyle}>
                 <div className="text-center">

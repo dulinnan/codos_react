@@ -13,16 +13,16 @@ interface Props {
 }
 
 const Layout = ({children}: Props) => {
-	return (
-		<>
-			<SEO />
-			<Header></Header>
-			<div>
-				<main>{children}</main>
-			</div>
-			<Footer></Footer>
-		</>
-	)
+    return (
+        <>
+            <SEO />
+            <Header></Header>
+            <div>
+                <main>{children}</main>
+            </div>
+            <Footer></Footer>
+        </>
+    )
 }
 
 export default Layout

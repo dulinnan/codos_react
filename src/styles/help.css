@@ -1,3 +1,5 @@
+/** @format */
+
 .pdf-download {
     transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     display: flex;

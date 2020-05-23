@@ -10,7 +10,7 @@ export default function NotFoundPage() {
 
     return (
         <>
-        <div id="notfound">
+            <div id="notfound">
                 <div className="notfound">
                     <div className="notfound-404">
                         <div></div>
@@ -18,7 +18,9 @@ export default function NotFoundPage() {
                     </div>
                     <h2>{t("NotFound.notFoundTitle")}</h2>
                     <p>{t("NotFound.notFoundMessage")}</p>
-                    <Link to="/" className="btn-outline">{t("NotFound.notFoundHomepage")}</Link>
+                    <Link to="/" className="btn-outline">
+                        {t("NotFound.notFoundHomepage")}
+                    </Link>
                 </div>
             </div>
         </>

@@ -64,7 +64,6 @@
         color: #ffffff;
         margin-left: 3em;
         z-index: 10;
-      
     }
     .location-detail-mobile {
         padding: 1rem 1rem 1rem 2rem;
@@ -132,7 +131,7 @@
         grid-template-rows: 1fr;
         grid-column-gap: 2px;
         grid-row-gap: 2px;
-        border-bottom: #0D0746 0.5px solid;
+        border-bottom: #0d0746 0.5px solid;
     }
 
     .office-map {
@@ -197,12 +196,12 @@
         width: 100%;
         top: 0;
         left: 0;
-        background: #0D0746;
+        background: #0d0746;
         opacity: 0.3;
         z-index: 0;
     }
 }
 
 .text-blue {
-    color: #0D0746 !important;
+    color: #0d0746 !important;
 }

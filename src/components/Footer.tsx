@@ -34,14 +34,14 @@ export default function Footer() {
                                         </li>
                                         <li className="media">
                                             <span className="iconfont icon-square text-red"></span>
-                                            <Link className="text-white" to="/why-choose-cjc">
-                                                {t("header.why")}
+                                            <Link className="text-white" to="/service/it-maintenance-and-repair">
+                                                Service
                                             </Link>
                                         </li>
                                         <li className="media">
                                             <span className="iconfont icon-square text-red"></span>
-                                            <Link className="text-white" to="/cooperate">
-                                                {t("header.partner")}
+                                            <Link className="text-white" to="/contact">
+                                                Contact Us
                                             </Link>
                                         </li>
                                     </ul>
@@ -53,17 +53,13 @@ export default function Footer() {
                                     <ul className="list-unstyled li-space-lg">
                                         <li className="media">
                                             <span className="iconfont icon-square text-red"></span>
-                                            <a
-                                                className="text-white"
-                                                href="/media/documents/Carrick Just Capital Markets - Client Services Agreement - 22032019.pdf">
+                                            <a className="text-white" href="/media/documents/terms-and-conditions.pdf">
                                                 {t("contactForm.termsAndConditions")}
                                             </a>
                                         </li>
                                         <li className="media">
                                             <span className="iconfont icon-square text-red"></span>
-                                            <a
-                                                className="text-white"
-                                                href="/media/documents/Carrick Just Capital Markets - Client Services Agreement - 22032019.pdf">
+                                            <a className="text-white" href="/media/documents/privacy-policy.pdf">
                                                 {t("contactForm.privacyPolicy")}
                                             </a>
                                         </li>

@@ -5,6 +5,7 @@ import {useTranslation} from "react-i18next"
 import "../styles/featureTable.css"
 import "../styles/richtext.css"
 import "../styles/whatDoesItCost.css"
+import svgTick from "../fonts/svgTick"
 export default function FMA() {
     const {t} = useTranslation("")
 
@@ -17,17 +18,9 @@ export default function FMA() {
         background: "rgba(239,239,239,0.5)",
     }
 
-    const svg = () => {
-        return (
-            <svg version="1.1" x="0px" y="0px" viewBox="0 0 20.96 16.62" width="21" height="17" xmlSpace="preserve">
-                <polygon points="17.81,0 7.44,10.37 3.1,6.04 0,9.13 4.34,13.47 7.49,16.62 10.59,13.52 20.96,3.15 "></polygon>
-            </svg>
-        )
-    }
-
     return (
         <>
-            <section className="section" style={featureTableBgStyle} id="codos-pricing">
+            <section className="section mobile-hide" style={featureTableBgStyle} id="codos-pricing">
                 <div className="featured-table-block" style={featureTableBgStyle}>
                     <div className="container">
                         <div className="row">
@@ -48,45 +41,45 @@ export default function FMA() {
                                     <tbody>
                                         <tr>
                                             <td>Hosting</td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
+                                            <td>{svgTick()}</td>
+                                            <td>{svgTick()}</td>
+                                            <td>{svgTick()}</td>
+                                            <td>{svgTick()}</td>
                                         </tr>
                                         <tr>
                                             <td>Search Engine Optimisation</td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
+                                            <td>{svgTick()}</td>
+                                            <td>{svgTick()}</td>
+                                            <td>{svgTick()}</td>
+                                            <td>{svgTick()}</td>
                                         </tr>
                                         <tr>
                                             <td>Mobile Compatibility</td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
+                                            <td>{svgTick()}</td>
+                                            <td>{svgTick()}</td>
+                                            <td>{svgTick()}</td>
+                                            <td>{svgTick()}</td>
                                         </tr>
                                         <tr>
                                             <td>Support(Contract Based)</td>
                                             <td></td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
+                                            <td>{svgTick()}</td>
+                                            <td>{svgTick()}</td>
+                                            <td>{svgTick()}</td>
                                         </tr>
                                         <tr>
                                             <td>Digital Marketing</td>
                                             <td></td>
                                             <td></td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
+                                            <td>{svgTick()}</td>
+                                            <td>{svgTick()}</td>
                                         </tr>
                                         <tr>
                                             <td>Backend</td>
                                             <td></td>
                                             <td></td>
-                                            <td>{svg()}</td>
-                                            <td>{svg()}</td>
+                                            <td>{svgTick()}</td>
+                                            <td>{svgTick()}</td>
                                         </tr>
 
                                         <tr>
@@ -94,14 +87,14 @@ export default function FMA() {
                                             <td></td>
                                             <td></td>
                                             <td></td>
-                                            <td>{svg()}</td>
+                                            <td>{svgTick()}</td>
                                         </tr>
                                         <tr>
                                             <td>Customisation</td>
                                             <td></td>
                                             <td></td>
                                             <td></td>
-                                            <td>{svg()}</td>
+                                            <td>{svgTick()}</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -126,7 +119,7 @@ export default function FMA() {
                                     </h3>
                                 </div>
 
-                                <a className="btn-outline" href="/archiving/">
+                                <a className="btn-outline" href="/contact">
                                     Talk to us now
                                 </a>
                             </div>
