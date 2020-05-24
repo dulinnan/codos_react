@@ -21,7 +21,7 @@ export default function Contacts() {
                                     <address className="text-center">
                                         <span className="iconfont iconfont-custom icon-hotelphone"></span>
                                         <a className="text-dark" href="tel:00640210427652">
-                                            +64 021 042 7652
+                                            +64 21 042 7652
                                         </a>
                                         <br />
                                         <span className="iconfont iconfont-custom icon-Email"></span>
