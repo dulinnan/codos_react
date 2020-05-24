@@ -7,7 +7,7 @@ export default function PriceTable() {
     const {t} = useTranslation("")
 
     const priceTableStyle = {
-        backgroundImage: "linear-gradient(to right top,#006497,60%,#ff173b)",
+        backgroundImage: "linear-gradient(45deg, rgba(235,227,227,1) 0%, rgba(61,60,60,1) 100%)",
         minHeight: "100vh",
         minWeight: "100vw",
         display: "flex",
@@ -24,18 +24,14 @@ export default function PriceTable() {
                     <div className="row" style={{alignItems: "top"}}>
                         <div className="col-lg-6">
                             <h2>
-                                <b>Lorem Ipsum</b>
+                                <b>Why Codos</b>
                             </h2>
                         </div>
                         <div className="col-lg-6 col-md-12 text-left rich-text">
                             <ul>
-                                <li>A local Solution for a Global Problem</li>
-                                <li>Detect and block more threats with SMX dual filtering and honeypots</li>
-                                <li>Kill URL based threats before they reach your inboxes</li>
-                                <li>
-                                    Automate rules to combat phishing, malware, ransomware and other high-risk email
-                                </li>
-                                <li>Improve time to access email data archive</li>
+                                <li>New Zealand owned and operated. </li>
+                                <li>Skilled Professionals in the IT industry.</li>
+                            
                             </ul>
                         </div>
                     </div>
@@ -43,9 +39,14 @@ export default function PriceTable() {
             </section>
             <section className="section" style={priceTableStyle}>
                 <div className="text-center">
-                    <h3 className="text-white">What is Lorem Ipsum?</h3>
-                    <h1 className="my-2 text-white">Lorem Ipsum</h1>
-                    <h3 className="text-white">Where can I get some?</h3>
+                    <div className="row justify-content-center">
+                        <div className="col-lg-6">
+                            <h1 className="mt-2 mb-5 text-white">
+                                "Give your business the competitive edge and stand out from your competition."
+                            </h1>
+                            <h2 className="my-2 text-white">Talk to us today.</h2>
+                        </div>
+                    </div>
                 </div>
             </section>
         </>

@@ -114,13 +114,13 @@
     background: #ed1b2e;
 }
 .column-content-block .column-content-wrapper > :nth-child(2) {
-    background: #fd5c63;
+    background: #c5bfbf;
 }
 .column-content-block .column-content-wrapper > :nth-child(3) {
-    background: #da1884;
+    background: #666363;
 }
 .column-content-block .column-content-wrapper > :nth-child(4) {
-    background: #a51890;
+    background: #373131;
 }
 .column-content-block .rich-text {
     line-height: 1.7;

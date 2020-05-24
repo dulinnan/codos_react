@@ -15,7 +15,7 @@
 .featured-table-block table td,
 .featured-table-block table th {
     border: 4px solid #efefef;
-    background: #07811b;
+    background: #373131;
     padding: 12px;
     vertical-align: middle;
 }
@@ -58,34 +58,34 @@
 }
 
 .featured-table-block table th:nth-child(4n + 2) {
-    background: #832561;
+    background: #ed1b2e;
 }
 .featured-table-block table th:nth-child(4n + 2) svg {
-    fill: #832561;
+    fill: #ed1b2e;
 }
 .featured-table-block table th:nth-child(4n + 3) {
-    background: #db3552;
+    background: #c5bfbf;
 }
 .featured-table-block table th:nth-child(4n + 3) svg {
-    fill: #db3552;
+    fill: #c5bfbf;
 }
 .featured-table-block table th:nth-child(4n + 4) {
-    background: #4154f0;
+    background: #666363;
 }
 .featured-table-block table th:nth-child(4n + 4) svg {
-    fill: #4154f0;
+    fill: #666363;
 }
 .featured-table-block table td:nth-child(4n + 1) svg {
-    fill: #07811b;
+    fill: #373131;
 }
 .featured-table-block table td:nth-child(4n + 2) svg {
-    fill: #832561;
+    fill: #ed1b2e;
 }
 .featured-table-block table td:nth-child(4n + 3) svg {
-    fill: #db3552;
+    fill: #c5bfbf;
 }
 .featured-table-block table td:nth-child(4n + 4) svg {
-    fill: #4154f0;
+    fill: #666363;
 }
 
 .featured-table-block table td {
