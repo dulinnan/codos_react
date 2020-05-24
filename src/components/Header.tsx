@@ -140,12 +140,6 @@ export default function Header() {
                                         Services
                                     </Link>
                                 </li>
-
-                                <li className="nav-item">
-                                    <Link to="/#codos-pricing" className="nav-link">
-                                        Pricing
-                                    </Link>
-                                </li>
                                 <li className="nav-item">
                                     <Link to="/contact" className="nav-link">
                                         Contact

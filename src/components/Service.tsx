@@ -26,13 +26,11 @@ export default function Service() {
                             <div className="block-inner flex">
                                 <div className="content-width rich-text">
                                     <h2>
-                                        <b>At CODOS we </b>
-                                        offer Computer maintenance and repair
-                                        <b>
-                                            {" "}
-                                            alongside Professionally designed websites on time at a great price that
-                                            suits your budget..
-                                        </b>
+                                        <b>At </b>CODOS <b>we offer </b>
+                                        Computer maintenance and repair
+                                        <b> alongside </b>
+                                        Professionally designed websites
+                                        <b> on time at a great price that suits your budget..</b>
                                     </h2>
                                 </div>
                             </div>

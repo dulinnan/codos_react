@@ -26,7 +26,7 @@ export default function FMA() {
                         <div className="row">
                             <div className="col-12 content-wrapper table-wrapper">
                                 <h3 className="text-center my-5">
-                                    <b>Product Features</b>
+                                    <b>Website Features</b>
                                 </h3>
                                 <table className="content-width">
                                     <thead>
@@ -112,11 +112,11 @@ export default function FMA() {
                             </div>
                             <div className="col-12 col-md-6">
                                 <div className="rich-text mb-3">
-                                    <h3>Our SMX solutions are charged on a per user, per month basis.</h3>
                                     <h3>
-                                        For legacy archive, import and storage costs are priced depending on archive
-                                        size.
+                                        At Codos our IT solutions are charged on a per hour, package or per month basis
+                                        depending on your needs.
                                     </h3>
+                                    <h3 className="mb-3">Our great range of website solutions start from $545 (Inc 15% GST).</h3>
                                 </div>
 
                                 <a className="btn-outline" href="/contact">

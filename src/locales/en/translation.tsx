@@ -125,7 +125,7 @@ export default {
     contactForm: {
         contactTitle: "Contact",
         contactForm: "Contact",
-        contactGreeting: "Don't hesitate to give us a call or just use the contact form below",
+        contactGreeting: "Don't hesitate to give us a call or use the contact form below",
         contactName: "Name",
         contactEmail: "Email",
         contactSubject: "Subject",
@@ -170,7 +170,7 @@ export default {
             "When you receive the notification that the account application is successful, you can use the login account and password in the email to enter the account. You can trade after you deposit sufficient funds in your account.",
         resetPassword: "How can I reset my password?",
         resetPasswordAns:
-            "Your password can be reset on the trading platform. If you are still unable to reset your password, you can send an email to us to reset the password from your registered email with us, to our customer service email address client@cjcmarkets.com. After verifying your information, we will send the reset password to the email address you registered when you opened the account. You can also contact our online customer service staff or call our customer service team for consultation.",
+            "Your password can be reset on the trading platform. If you are still unable to reset your password, you can send an email to us to reset the password from your registered email with us, to our customer service email address contact@codos.co.nz. After verifying your information, we will send the reset password to the email address you registered when you opened the account. You can also contact our online customer service staff or call our customer service team for consultation.",
         deposit: "How do I deposit funds into my account?",
         depositAns:
             "You can deposit funds directly into our client trust bank account. We only accept electronic transfers. We do not accept cash, cheques or any other instruments or types of transfers. The details of the client trust bank account can be obtained from CJC’s representatives. We only accept funds that are transferred from a bank account bearing the same name as the account with us. Transfers from other parties will be returned and any fees incurred will payable by you.",

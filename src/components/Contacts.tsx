@@ -14,18 +14,18 @@ export default function Contacts() {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="p-5 box-shadow contact-form">
-                            <form method="POST" action="https://formspree.io/client@cjcmarkets.com" className="row">
+                            <form method="POST" action="https://formspree.io/contact@codos.co.nz" className="row">
                                 <div className="col-lg-12">
                                     <h3 className="section-title mb-0">{t("contactForm.contactForm")}</h3>
                                     <h5 className="text-dark mb-10">{t("contactForm.contactGreeting")}</h5>
                                     <address className="text-center">
                                         <span className="iconfont iconfont-custom icon-hotelphone"></span>
-                                        <a className="text-dark" href="tel:0064092803716">
+                                        <a className="text-dark" href="tel:00640210427652">
                                             +64 021 042 7652
                                         </a>
                                         <br />
                                         <span className="iconfont iconfont-custom icon-Email"></span>
-                                        <a className="text-dark" href="mailto:client@cjcmarkets.com">
+                                        <a className="text-dark" href="mailto:contact@codos.co.nz">
                                             contact@codos.co.nz
                                         </a>
                                         <br />

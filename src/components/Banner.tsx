@@ -12,7 +12,7 @@ import {Link} from "react-router-dom"
 import "../styles/banner.css"
 
 const bannerOneStyle: CSSProperties = {
-    background: `linear-gradient(45deg, rgba(238,238,238,1) 0%, rgba(114,132,218,1) 49%, rgba(0,120,215,1) 100%), url(${bannerDemoImg})`,
+    background: `linear-gradient(45deg, rgba(235,227,227,1) 0%, rgba(61,60,60,1) 100%), url(${bannerDemoImg})`,
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
