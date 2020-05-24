@@ -48,7 +48,7 @@ export default function Service() {
                                     <div style={{minHeight: "100px"}}>
                                         <p style={{color: "#FFFFFF"}}>
                                             Computer Maintenance and Repair, Back Ups, Recovery, Hardware and Software
-                                            Installations and Diagnostics, Virus removal - Starting from $85 Per hour.
+                                            Installations and Diagnostics, Virus removal - Starting from $85 per hour.
                                         </p>
                                     </div>
                                     <Link to="/service/it-maintenance-and-repair" className="btn">
@@ -65,7 +65,7 @@ export default function Service() {
                                         <p style={{color: "#FFFFFF"}}>
                                             Develop Front End using latest standards with HTML5/CSS3 with added
                                             functionality using JavaScript and Vue/React. Develop Back End Restful
-                                            service using Node.js and SQL server or Mongo DB databases - Starting from $545 Per hour.
+                                            service using Node.js and SQL server or Mongo DB databases - Starting from $545.
                                         </p>
                                     </div>
                                     <Link to="/service/web-development" className="btn">

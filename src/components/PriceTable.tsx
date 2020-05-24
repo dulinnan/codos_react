@@ -31,7 +31,8 @@ export default function PriceTable() {
                             <ul>
                                 <li>New Zealand owned and operated. </li>
                                 <li>Skilled Professionals in the IT industry.</li>
-                            
+                                <li>Competitive price.</li>
+                                <li>Latest technology.</li>
                             </ul>
                         </div>
                     </div>
