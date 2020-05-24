@@ -131,7 +131,7 @@ export default function Header() {
                         <div className={collapseStatus} id="navbarSupportedContent">
                             <ul className="navbar-nav ml-auto">
                                 <li className="nav-item">
-                                    <Link to="/home" className="nav-link">
+                                    <Link to="/" className="nav-link">
                                         {t("header.home")}
                                     </Link>
                                 </li>
