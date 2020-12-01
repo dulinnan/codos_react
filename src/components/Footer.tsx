@@ -4,6 +4,7 @@ import React, {Suspense} from "react"
 import {Link} from "react-router-dom"
 import {useTranslation} from "react-i18next"
 import footerImg from "../images/logoNavLight.png"
+import topReviewsLogo from "../images/top-reviews-logo.png"
 import "../fonts/iconfont/iconfont.css"
 
 export default function Footer() {
@@ -20,6 +21,17 @@ export default function Footer() {
                                     <Link className="footer-brand logo-image" to="/" style={{textDecoration: "none"}}>
                                         <img className="img-fluid mb-10 w-50" src={footerImg} alt="logo of CODOS" />
                                     </Link>
+                                    <br />
+                                    <a
+                                        href="https://www.topreviews.co.nz/best-web-design-christchurch/#15_CODOS_IT_Service"
+                                        className="footer-brand logo-image"
+                                        style={{textDecoration: "none"}}>
+                                        <img
+                                            className="img-fluid mb-10 w-50"
+                                            src={topReviewsLogo}
+                                            alt="logo of top review nz"
+                                        />
+                                    </a>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-12">

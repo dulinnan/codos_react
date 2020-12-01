@@ -111,14 +111,14 @@ export default function FMA() {
                                 <h2 style={{fontSize: "4rem"}}> So, what does it cost?</h2>
                             </div>
                             <div className="col-12 col-md-6">
-                                <div className="rich-text mb-3">
+                                <div className="rich-text">
                                     <h3>
                                         At Codos our IT solutions are charged on a per hour, package or per month basis
                                         depending on your needs.
                                     </h3>
-                                    <h3 className="mb-3">Our great range of website solutions start from $545 (Inc 15% GST).</h3>
+                                    <h3>Our great range of website solutions start from $545 (Inc 15% GST).</h3>
+                                    <h3 className="mb-3">We are a Top 15 Web Design Services Provider in Christchurch.</h3>
                                 </div>
-
                                 <a className="btn-outline" href="/contact">
                                     Talk to us now
                                 </a>
